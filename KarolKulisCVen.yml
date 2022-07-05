@@ -1,0 +1,82 @@
+---
+firstname: Karol
+lastname: Kuliś
+address:
+  city: Warsaw
+  country: Polska
+email: karolk1778@gmail.com
+phone: +48511285362
+linkedin: karol-kuli%C5%9B1178/
+github: quqli87
+
+
+experience:
+  - dates: 07/2021 - 05/2022
+    employer: Avicon - Vision Systems
+    title: Sales department member
+    city: Warsaw
+    description:
+      - ERP implementation
+      - Preparing and formatting data from internal database and importing to ERP system (Excel, basic macros)
+      - ERP basic configuration 
+      - Helpdesk (redmine) - specifing requirements for additional functionalities of ERP and testing newly implemented features
+# need to use '>' to be able to use ':' in the text.
+      - >
+         Additional responsibilities: Basic camera testing using Pylon Software Suite, writing technical articles about Vision Technologies and products for website and LinkedIn 
+  - dates: 06/2018 - 08/2018
+    employer: Niko Distribution Ltd
+    title: Edgebander machine assistant
+    city: Halifax, UK
+    description:
+      - Basic machine operator
+      - Quality control
+          
+      #               #certifications:
+      #  - cert: CSDHA
+      #    description:
+      #      Certified Sheep Dog Handler - Associate, 2014, number 38957271
+
+education:
+  - years: 09/2018 - 06/2022
+    degree: Automation and Robotisation of Manufacturing Processess, full-time studies first cycle programme
+    institution: 
+    location: Warsaw
+    grade: 4
+    description: 
+      - Warsaw University of Technology Faculty of Mechanical and Industrial Engineering, grade 4
+      ##- Politechnika Warszawska Wydział Mechaniczny Technolologinczy.
+
+  
+computer:
+  - category: Linux
+    programs: bash, cli tools (grep, pipe, make, awk, sed itp)
+    category1: software
+    programs1: git, virtualization Virtual Manager (KVM), Virtual Box; SSH; Arduino IDE, Arduino-cli, pandoc
+  - category: data processing
+    programs: R, XML, YAML
+    category1: markup languages
+    programs1: Markdown, LaTeX
+
+language:  
+  - name: English
+    level: Speaking and writing proficiency
+  - name: polish
+    level: native
+  - name: Spanish
+    level: A1 level
+      
+interests: Linux •microcontrollers and mikrocomputers• consumer electronics
+  #
+    # tools: skr
+    # devops: auu
+    # system: linux
+
+...
+
+
+
+
+
+
+
+

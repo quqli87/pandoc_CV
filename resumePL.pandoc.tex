@@ -1,4 +1,4 @@
-%% =========================================================================
+%% ========================================================================
 %% Pandoc ModernCV template, generates a pretty PDF resume from a YAML source.
 %% Any original contributions by me (Sam Juvonen 2016) are in the public domain.
 %% CREDITS
@@ -95,15 +95,16 @@ $endif$
 % optional, remove / comment the line if not wanted; 
 % the "postcode city" and "country" arguments can be omitted or provided empty
 $if(address)$
-\address{$if(address.street)$$address.street$$endif$}{$address.city$}{$address.country$}
+\address{$if(address.city)$$address.city$$endif$}{$address.country$}
+%\address{$if(address.street)$$address.street$$endif$}{$address.city$}{$address.country$}
 $endif$
 
 % these are optional and can be commented out
 \phone[mobile]{$phone$} 
 \email{$email$}                   
-\homepage{$homepage$} 
+%\homepage{$homepage$} 
 \social[linkedin]{$linkedin$}
-\social[twitter]{$twitter$} 
+%\social[twitter]{$twitter$} 
 \social[github]{$github$}   
 %\extrainfo{additional information}
 
@@ -118,33 +119,58 @@ $for(include-before)$
 $include-before$
 $endfor$
 
-$if(summary)$
-\section{Summary}
-$summary$
-$endif$
+%$if(summary)$
+%\section{Summary}
+%$summary$
+%$endif$
 
-\section{Experience}
+\section{Doświadczenie}
  $for(experience)$
  \cventry{$experience.dates$}{$experience.title$}{$experience.employer$}{$experience.city$}{}{$for(experience.description)$$experience.description$$sep$ \medskip{}\newline{}$endfor$}
  $endfor$
 
- \section{Certifications}
- $for(certifications)$
-\cvitem{$certifications.cert$}{$certifications.description$}
+% \section{Certifications}
+% $for(certifications)$
+%\cvitem{$certifications.cert$}{$certifications.description$}
+%$endfor$
+
+\section{Wykształcenie}
+$for(education)$
+\cventry{$education.years$}{$education.degree$}{}{}{$for(education.description)$$education.description$$sep$ $endfor$}
 $endfor$
 
-\section{Interests}
+
+%$if(skills)$
+%   \NewPart{Skills}{}
+%   \SkillsEntry{Languages}{$skills.languages$}
+%   \SkillsEntry{Tools}{$skills.tools$}
+%   \SkillsEntry{DevOps}{$skills.devops$}
+%   \SkillsEntry{Systems}{$skills.systems$}
+%   $endif$
+
+\section{Umiejętności}
+$for(computer)$
+\cvcomputer{$computer.category$}{$computer.programs$}{$computer.category1$}{$computer.programs1$}{} $sep$ 
+$endfor$
+
+\section{Języki}
+$for(language)$
+\cvlanguage{$language.name$}{$language.level$}{}
+$endfor$
+
+
+
+\section{Zainteresowania}
 $interests$
 
 \end{document}
 
 
-
-
-
-
-
-
+%
+%$if(address)$
+%\address{$if(address.city)$$address.city$$endif$}{$address.country$}
+%%\address{$if(address.street)$$address.street$$endif$}{$address.city$}{$address.country$}
+%$endif$
 
 
 

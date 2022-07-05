@@ -1,0 +1,83 @@
+---
+firstname: Karol
+lastname: Kuliś
+address:
+  city: Warszawa
+  country: Polska
+email: karolk1778@gmail.com
+phone: +48511285362
+linkedin: karol-kuli%C5%9B1178/
+github: quqli87
+
+
+experience:
+  - dates: 07/2021 - 05/2022
+    employer: Avicon - Vision Systems
+    title: Pracownik działu sprzedaży
+    city: Warszawa
+    description:
+      - Praca przy wdorożeniu wewnętrznego systemu sprzedaży - ERP. 
+      - Przygotowanie danych w Excel (w tym praca z makrami) i import danych
+      - Konfiguracja poszczególnych modułów systemu ERP
+      - Praca na helpdesk (redmine) - specyfikacja dodatkowych funkcjonalności, raportowanie błędów
+      - Praca z dokumentacją techniczną głównie w języku angielskim i niemieckim
+# need to use '>' to be able to use ':' in the text.
+      - >
+          Dodatkowe obowiązki: Podstawowe testy kamer głównie z użyciem oprogramownia Pylon, pisanie artykułów technicznych na temat technologii wizyjnych w języku angielskim i polskim na stronę internetową i LinkedIn 
+  - dates: 06/2018 - 08/2018
+    employer: Niko Distribution Ltd
+    title: Asystent operatora okleiniarki
+    city: Halifax, UK
+    description:
+      - Obsługa maszyny
+      - Kontrola jakości wytwarzanych wyrobów
+          
+      #               #certifications:
+      #  - cert: CSDHA
+      #    description:
+      #      Certified Sheep Dog Handler - Associate, 2014, number 38957271
+
+education:
+  - years: 09/2018 - 06/2022
+    degree: Automatyzacja i Robotyzacja Procesów Produkcyjnych I stopnia 
+    institution: Auua
+    location: Warsaw
+    grade: 5
+    description: 
+      - Politechnika Warszawska Wydział Mechaniczny Technolologinczy, ocena 4
+      ##- Politechnika Warszawska Wydział Mechaniczny Technolologinczy.
+
+  
+computer:
+  - category: Linux
+    programs: bash, cli tools (grep, pipe, make, awk, sed itp)
+    category1: oprogramowanie
+    programs1: git, wirtualiazacja Virtual Manager (KVM) (KVM), Virtual Box; SSH; Arduino IDE, Arduino-cli, pandoc
+  - category: praca na danych
+    programs: RStudio, XML, YAML
+    category1: języki markup
+    programs1: Markdown, LaTeX
+
+language:  
+  - name: angielski
+    level: biegłość w mowie i piśmie 
+  - name: polski 
+    level: ojczysty
+  - name: hiszpański
+    level: poziom A1
+      
+interests: Linux • mikrokontrolery i mikroprocesory • elektronika konsumencka
+  #
+    # tools: skr
+    # devops: auu
+    # system: linux
+
+...
+
+
+
+
+
+
+
+
