@@ -9,14 +9,13 @@ phone: +48511285362
 linkedin: karol-kuli%C5%9B1178/
 github: quqli87
 
-
-experience:
+experience:  
   - dates: 07/2021 - 05/2022
     employer: Avicon - Vision Systems
     title: Pracownik działu sprzedaży
     city: Warszawa
     description:
-      - Praca przy wdorożeniu wewnętrznego systemu sprzedaży - ERP. 
+      - Praca przy wdorożeniu wewnętrznego systemu ERP. 
       - Przygotowanie danych w Excel (w tym praca z makrami) i import danych
       - Konfiguracja poszczególnych modułów systemu ERP
       - Praca na helpdesk (redmine) - specyfikacja dodatkowych funkcjonalności, raportowanie błędów
@@ -52,9 +51,9 @@ computer:
   - category: Linux
     programs: bash, cli tools (grep, pipe, make, awk, sed itp)
     category1: oprogramowanie
-    programs1: git, wirtualiazacja Virtual Manager (KVM) (KVM), Virtual Box; SSH; Arduino IDE, Arduino-cli, pandoc
+    programs1: git, wirtualiazacja Virtual Manager (KVM), Virtual Box, SSH, Arduino IDE, Arduino-cli, pandoc, TCP/IP
   - category: praca na danych
-    programs: RStudio, XML, YAML
+    programs: RStudio, XML, YAML, JSON
     category1: języki markup
     programs1: Markdown, LaTeX
 
@@ -73,11 +72,4 @@ interests: Linux • mikrokontrolery i mikroprocesory • elektronika konsumenck
     # system: linux
 
 ...
-
-
-
-
-
-
-
 

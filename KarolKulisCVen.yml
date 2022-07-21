@@ -51,9 +51,9 @@ computer:
   - category: Linux
     programs: bash, cli tools (grep, pipe, make, awk, sed itp)
     category1: software
-    programs1: git, virtualization Virtual Manager (KVM), Virtual Box; SSH; Arduino IDE, Arduino-cli, pandoc
+    programs1: git, virtualization Virtual Manager (KVM), Virtual Box, SSH, Arduino IDE, Arduino-cli, pandoc, TCP/IP
   - category: data processing
-    programs: R, XML, YAML
+    programs: R, XML, YAML, JSON
     category1: markup languages
     programs1: Markdown, LaTeX
 
