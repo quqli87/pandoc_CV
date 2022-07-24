@@ -8,7 +8,6 @@ email: karolk1778@gmail.com
 phone: +48511285362
 linkedin: karol-kuli%C5%9B1178/
 github: quqli87
-
 experience:  
   - dates: 07/2021 - 05/2022
     employer: Avicon - Vision Systems
@@ -53,9 +52,9 @@ computer:
     category1: oprogramowanie
     programs1: git, wirtualiazacja Virtual Manager (KVM), Virtual Box, SSH, Arduino IDE, Arduino-cli, pandoc, TCP/IP
   - category: praca na danych
-    programs: RStudio, XML, YAML, JSON
+    programs: XML, YAML, JSON
     category1: języki markup
-    programs1: Markdown, LaTeX
+    programs1: Markdown, LaTeX, RStudio
 
 language:  
   - name: angielski

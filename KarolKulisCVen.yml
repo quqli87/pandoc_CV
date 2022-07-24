@@ -38,7 +38,7 @@ experience:
 
 education:
   - years: 09/2018 - 06/2022
-    degree: Automation and Robotisation of Manufacturing Processess, full-time studies first cycle programme
+    degree: Automation and Robotisation of Manufacturing Processess
     institution: 
     location: Warsaw
     grade: 4
@@ -53,9 +53,9 @@ computer:
     category1: software
     programs1: git, virtualization Virtual Manager (KVM), Virtual Box, SSH, Arduino IDE, Arduino-cli, pandoc, TCP/IP
   - category: data processing
-    programs: R, XML, YAML, JSON
+    programs: XML, YAML, JSON
     category1: markup languages
-    programs1: Markdown, LaTeX
+    programs1: Markdown, LaTeX, R-Studio, basic Golang
 
 language:  
   - name: English
